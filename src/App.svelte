@@ -1,7 +1,7 @@
 <script>
   import svelteLogo from "./assets/svelte.svg";
   
-  // Importando el paquete loading-request para mostrar un spinner de carga durante la solicitud a la API
+  // Importando el paquete loading-request
   import { showLoading, hideLoading } from "loading-request";
   import "loading-request/dist/index.css";
 

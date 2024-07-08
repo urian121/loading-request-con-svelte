@@ -1,14 +1,17 @@
-# Consumir API REST en Svelte
+# Consumir API REST en Svelte e incorporar el paquete Loading Request
 
-##### Aprende a utilizar datos de una API REST en tu aplicación Svelte
+##### Aprende a implementar el paquete Loading Request para consumir datos de una API REST en tu aplicación Svelte
 
-##### En este proyecto, aprenderás a consumir una API REST utilizando el poderoso framework Svelte. Esta habilidad es fundamental para cualquier desarrollador web, ya que te permite acceder a una amplia variedad de datos y servicios en línea.
-
-##### Utilizaremos la sintaxis moderna de JavaScript, incluyendo async/await, para realizar las solicitudes a la API de forma asincrónica y manejar los datos de manera eficiente.
+##### En este proyecto, aprenderás a consumir una API REST utilizando el poderoso framework Svelte. Esta habilidad es fundamental para cualquier desarrollador web, ya que te permite acceder a una amplia variedad de datos y servicios en línea. Además, integraremos el paquete loading-request para mejorar la experiencia de usuario al mostrar indicadores de carga durante las solicitudes de datos.
 
 #### Resultado final
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/consumir-api-en-svelte.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/loading-request-con-svelte.gif)
+
+### Pasos para correr el proyecto
+
+    $ npm install
+    $ npm run dev
 
 ### Expresiones de Gratitud 🎁
 
