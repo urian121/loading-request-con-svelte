@@ -13,6 +13,7 @@
       message: "Cargando Solicitud...",
       spinnerColor: "#f3752b",
       textLoadingColor: "#EE5E09",
+      textLoadingSize: "25px",
     });
 
     try {
