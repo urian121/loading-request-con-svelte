@@ -3,10 +3,8 @@
   
   // Importando el paquete loading-request
   import { showLoading, hideLoading } from "loading-request";
-  import "loading-request/dist/index.css";
 
-
-  let personas = null;
+ let personas = null;
  async function fetchPersonas() {
   
   showLoading({
@@ -17,7 +15,7 @@
     });
 
     try {
-      const URL = "https://reqres.in/api/users?page=1";
+      const URL = "https://devsapihub.com/api-users";
       const response = await fetch(URL);
       if (!response.ok) {
         throw new Error('Error en la solicitud');
@@ -39,16 +37,16 @@
 
  {#if personas}
     <ul class="user-list">
-      {#each personas.data as persona (persona.id)}
+      {#each personas as persona (persona.id)}
         <li class="user-item">
           <img
-            src={persona.avatar}
-            alt={persona.first_name}
+            src={persona.avatar_url}
+            alt={persona.name}
             class="user-avatar"
           />
           <div class="user-details">
             <p class="user-details__name">
-              Nombre: {persona.first_name}
+              Nombre: {persona.name}
             </p>
             <p class="user-details__email">Email: {persona.email}</p>
           </div>
